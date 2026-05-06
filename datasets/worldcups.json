@@ -1,0 +1,43 @@
+# Sample World Cups Data
+
+Used for seeding the database with World Cup tournaments.
+
+```json
+[
+  {
+    "year": 2022,
+    "country": "Qatar",
+    "totalCards": 670
+  },
+  {
+    "year": 2018,
+    "country": "Russia",
+    "totalCards": 682
+  },
+  {
+    "year": 2014,
+    "country": "Brazil",
+    "totalCards": 640
+  },
+  {
+    "year": 2010,
+    "country": "South Africa",
+    "totalCards": 640
+  },
+  {
+    "year": 2006,
+    "country": "Germany",
+    "totalCards": 540
+  }
+]
+```
+
+## How to Use
+
+Reference in `scripts/seed.ts` to populate the WorldCup table.
+
+```typescript
+const worldCups = await prisma.worldCup.createMany({
+  data: require('../datasets/worldcups.json')
+});
+```

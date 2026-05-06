@@ -1,0 +1,67 @@
+# Docker Compose Configuration for Local Development
+
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: worldcard-postgres
+    environment:
+      POSTGRES_USER: worldcard
+      POSTGRES_PASSWORD: dev_password_change_me
+      POSTGRES_DB: worldcard
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U worldcard"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Backend (Node.js/Express)
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: worldcard-backend
+    environment:
+      DATABASE_URL: postgresql://worldcard:dev_password_change_me@postgres:5432/worldcard
+      NODE_ENV: development
+      PORT: 3001
+      JWT_SECRET: dev_secret_change_in_production
+    ports:
+      - "3001:3001"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./backend/src:/app/src
+      - ./backend/prisma:/app/prisma
+    command: npm run dev
+
+  # Frontend (Next.js)
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: worldcard-frontend
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:3001
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend/app:/app/app
+      - ./frontend/components:/app/components
+      - ./frontend/hooks:/app/hooks
+
+volumes:
+  postgres_data:
+
+networks:
+  default:
+    name: worldcard-network

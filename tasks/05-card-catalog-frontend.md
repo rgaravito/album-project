@@ -2,14 +2,14 @@
 
 ## Description
 
-Build the frontend interface to display cards from the API. Create components for browsing cards by World Cup year and displaying card details.
+Build the frontend interface to display album stickers from the API. Create components for browsing stickers by World Cup year and displaying sticker details.
 
 ## Acceptance Criteria
 
-- [ ] Explore page `/explore` listing cards
+- [ ] Explore page `/explore` listing stickers
 - [ ] Filter by World Cup year
-- [ ] Card grid component displaying cards
-- [ ] Card detail modal or page
+- [ ] Sticker grid component displaying stickers
+- [ ] Sticker detail modal or page
 - [ ] Loading states
 - [ ] Error handling and messages
 - [ ] Responsive design (mobile friendly)
@@ -22,7 +22,7 @@ Build the frontend interface to display cards from the API. Create components fo
 **`app/explore/page.tsx`**
 - Display list of World Cups
 - Filter selector for year
-- Card grid with current year's cards
+- Sticker grid with current year's stickers
 - Pagination controls
 
 ### Components - `components/`

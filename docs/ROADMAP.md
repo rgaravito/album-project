@@ -1,4 +1,4 @@
-# Product Roadmap - WorldCard
+# Product Roadmap - LáminaGol
 
 ## Phase 1: MVP (4-6 weeks)
 
@@ -14,8 +14,8 @@
 - [ ] Perfil de usuario
 - [ ] Avatar básico
 
-### 1.3 Card Catalog
-- [ ] Modelo de datos para Láminas (Cards)
+### 1.3 Sticker Catalog
+- [ ] Modelo de datos para láminas adhesivas del álbum (Cards)
 - [ ] Datos de Mundiales (years, countries)
 - [ ] API de láminas por año
 - [ ] Listado en frontend
@@ -51,14 +51,14 @@
 - [ ] Wishlist
 
 ### 2.4 Enhanced UI
-- [ ] Diseño de cards mejorado
+- [ ] Diseño de láminas mejorado
 - [ ] Modales de compra/venta
 - [ ] Dashboard mejorado
 - [ ] Mobile responsive
 
 ## Phase 3: Future (Post-MVP)
 
-- [ ] Caché Redis para cards
+- [ ] Caché Redis para láminas
 - [ ] Reseñas y ratings de usuarios
 - [ ] Sistema de puntos/badges
 - [ ] Chat en tiempo real

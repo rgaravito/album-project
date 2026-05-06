@@ -2,15 +2,15 @@
 
 ## Description
 
-Implement the purchase flow. Allow users to buy cards from other users. Create transaction records.
+Implement the purchase flow. Allow users to buy stickers from other users. Create transaction records.
 
 ## Acceptance Criteria
 
 - [ ] POST /api/market/buy endpoint
 - [ ] Transaction record created with status \"completed\"
-- [ ] Buyer's inventory updated with card
+- [ ] Buyer's inventory updated with sticker
 - [ ] Seller's inventory updated (quantity decreased)
-- [ ] Card automatically delisted after purchase
+- [ ] Sticker automatically delisted after purchase
 - [ ] Purchase confirmation
 - [ ] Transaction history visible to both users
 - [ ] Unit tests for purchase flow

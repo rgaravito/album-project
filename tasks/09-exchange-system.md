@@ -2,7 +2,7 @@
 
 ## Description
 
-Implement card exchange/trade functionality. Allow users to make offers to exchange cards with other users.
+Implement sticker exchange/trade functionality. Allow users to make offers to exchange stickers with other users.
 
 ## Acceptance Criteria
 

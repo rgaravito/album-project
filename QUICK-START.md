@@ -1,77 +1,77 @@
-# WorldCard - Quick Reference Guide
+# LáminaGol - Guía Rápida de Referencia
 
-## 📍 You Are Here
+## 📍 Estás Aquí
 
-This is the **complete project structure** for WorldCard - a World Cup album card marketplace application.
+Esta es la **estructura completa del proyecto** para LáminaGol - una aplicación de marketplace para láminas adhesivas del álbum del Mundial.
 
-**Status**: ✅ Ready for Implementation
-**Location**: `c:\Users\rochy\album-project\`
-**Next Step**: Start with Task 01 - Project Setup
-
----
-
-## 🎯 Start Here
-
-### For Project Managers
-1. Read: [PROJECT-SUMMARY.md](PROJECT-SUMMARY.md) - 5 min overview
-2. Check: [ROADMAP.md](docs/ROADMAP.md) - Features & timeline
-3. Monitor: [NEXT_TASK.md](NEXT_TASK.md) - Current progress
-
-### For Developers (Backend)
-1. Read: [ARCHITECTURE.md](docs/ARCHITECTURE.md) - Tech stack & API design
-2. Setup: [scripts/SETUP.md](scripts/SETUP.md) - Local development
-3. Current Task: [NEXT_TASK.md](NEXT_TASK.md)
-4. Agent Guide: [agents/README.md](agents/README.md)
-
-### For Developers (Frontend)
-1. Read: [ARCHITECTURE.md](docs/ARCHITECTURE.md) - Routes & components
-2. Setup: [scripts/SETUP.md](scripts/SETUP.md) - Local development
-3. Current Task: [NEXT_TASK.md](NEXT_TASK.md)
-4. Agent Guide: [agents/README.md](agents/README.md)
-
-### For AI Agents
-1. Copy current task from [NEXT_TASK.md](NEXT_TASK.md)
-2. Read full task file from [tasks/](tasks/)
-3. Include [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
-4. Follow agent prompt: [agents/{agent-name}/prompt.md](agents/)
-5. Reference [docs/AGENTS.md](docs/AGENTS.md) for guidelines
+**Estado**: ✅ Listo para Implementación
+**Ubicación**: `c:\Users\rochy\album-project\`
+**Próximo Paso**: Comenzar con la Tarea 01 - Configuración del Proyecto
 
 ---
 
-## 📚 Essential Documentation
+## 🎯 Comienza Aquí
 
-### Project Understanding
-| File | Purpose | Read Time |
-|------|---------|-----------|
-| [README.md](README.md) | Main project intro | 3 min |
-| [PROJECT-SUMMARY.md](PROJECT-SUMMARY.md) | Complete overview | 5 min |
-| [docs/PROJECT-CONTEXT.md](docs/PROJECT-CONTEXT.md) | Quick reference | 3 min |
+### Para Gerentes de Proyecto
+1. Leer: [PROJECT-SUMMARY.md](PROJECT-SUMMARY.md) - Resumen de 5 min
+2. Revisar: [ROADMAP.md](docs/ROADMAP.md) - Características y cronograma
+3. Monitorear: [NEXT_TASK.md](NEXT_TASK.md) - Progreso actual
 
-### Architecture & Design
+### Para Desarrolladores (Backend)
+1. Leer: [ARCHITECTURE.md](docs/ARCHITECTURE.md) - Stack tecnológico y diseño de API
+2. Configurar: [scripts/SETUP.md](scripts/SETUP.md) - Desarrollo local
+3. Tarea Actual: [NEXT_TASK.md](NEXT_TASK.md)
+4. Guía de Agentes: [agents/README.md](agents/README.md)
+
+### Para Desarrolladores (Frontend)
+1. Leer: [ARCHITECTURE.md](docs/ARCHITECTURE.md) - Rutas y componentes
+2. Configurar: [scripts/SETUP.md](scripts/SETUP.md) - Desarrollo local
+3. Tarea Actual: [NEXT_TASK.md](NEXT_TASK.md)
+4. Guía de Agentes: [agents/README.md](agents/README.md)
+
+### Para Agentes de IA
+1. Copiar tarea actual de [NEXT_TASK.md](NEXT_TASK.md)
+2. Leer archivo completo de tarea desde [tasks/](tasks/)
+3. Incluir [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+4. Seguir prompt del agente: [agents/{agent-name}/prompt.md](agents/)
+5. Referenciar [docs/AGENTS.md](docs/AGENTS.md) para directrices
+
+---
+
+## 📚 Documentación Esencial
+
+### Comprensión del Proyecto
+| Archivo | Propósito | Tiempo de Lectura |
+|---------|-----------|-------------------|
+| [README.md](README.md) | Introducción principal del proyecto | 3 min |
+| [PROJECT-SUMMARY.md](PROJECT-SUMMARY.md) | Resumen completo | 5 min |
+| [docs/PROJECT-CONTEXT.md](docs/PROJECT-CONTEXT.md) | Referencia rápida | 3 min |
+
+### Arquitectura y Diseño
 | File | Purpose | Read Time |
 |------|---------|-----------|
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Tech stack & design | 10 min |
 | [docs/ROADMAP.md](docs/ROADMAP.md) | Features & timeline | 5 min |
 | [docs/AGENTS.md](docs/AGENTS.md) | Agent guidelines | 5 min |
 
-### Setup & Getting Started
-| File | Purpose | Read Time |
-|------|---------|-----------|
-| [scripts/SETUP.md](scripts/SETUP.md) | Dev environment setup | 5 min |
-| [docker-compose.yml](docker-compose.yml) | Container configuration | 2 min |
-| [agents/README.md](agents/README.md) | How to activate agents | 5 min |
+### Configuración y Comienzo
+| Archivo | Propósito | Tiempo de Lectura |
+|---------|-----------|-------------------|
+| [scripts/SETUP.md](scripts/SETUP.md) | Configuración del entorno de desarrollo | 5 min |
+| [docker-compose.yml](docker-compose.yml) | Configuración de contenedores | 2 min |
+| [agents/README.md](agents/README.md) | Cómo activar agentes | 5 min |
 
-### Architecture Decisions
-| File | Purpose |
-|------|---------|
-| [docs/adr/ADR-001-MVP-Scope.md](docs/adr/ADR-001-MVP-Scope.md) | MVP feature decisions |
-| [docs/adr/ADR-002-Tech-Stack.md](docs/adr/ADR-002-Tech-Stack.md) | Technology choices |
+### Decisiones de Arquitectura
+| Archivo | Propósito |
+|---------|-----------|
+| [docs/adr/ADR-001-MVP-Scope.md](docs/adr/ADR-001-MVP-Scope.md) | Decisiones de características MVP |
+| [docs/adr/ADR-002-Tech-Stack.md](docs/adr/ADR-002-Tech-Stack.md) | Selección de tecnologías |
 
 ---
 
-## 🛣️ Implementation Path
+## 🛣️ Ruta de Implementación
 
-### Phase 1: MVP (10 Tasks)
+### Fase 1: MVP (10 Tareas)
 
 ```
 01-project-setup.md ────┐
@@ -89,16 +89,16 @@ This is the **complete project structure** for WorldCard - a World Cup album car
 09-exchange-system.md ──→ 10-user-profile.md
 ```
 
-### Current Task
+### Tarea Actual
 ```
 → NEXT_TASK.md
 ```
 
 ---
 
-## 📂 Folder Reference
+## 📂 Referencia de Carpetas
 
-### Project Structure
+### Estructura del Proyecto
 ```
 / (root)
 ├── Documentation
@@ -144,9 +144,9 @@ This is the **complete project structure** for WorldCard - a World Cup album car
 
 ---
 
-## 🤖 Agent Activation Quick Guide
+## 🤖 Guía Rápida de Activación de Agentes
 
-### Product Agent
+### Agente de Producto
 ```
 Read: docs/ROADMAP.md, docs/ARCHITECTURE.md
 Task: Create specs for Phase 1 features
@@ -154,135 +154,135 @@ Output: specs/ folder, updated NEXT_TASK.md
 Activate: agents/product-agent/prompt.md
 ```
 
-### Backend Agent
+### Agente Backend
 ```
-Read: NEXT_TASK.md, current task file, docs/ARCHITECTURE.md
-Task: Implement APIs and services
-Output: Backend code, tests
-Activate: agents/backend-agent/prompt.md
-```
-
-### Frontend Agent
-```
-Read: NEXT_TASK.md, current task file, docs/ARCHITECTURE.md
-Task: Implement UI components and pages
-Output: Frontend code, components, tests
-Activate: agents/frontend-agent/prompt.md
+Leer: NEXT_TASK.md, archivo de tarea actual, docs/ARCHITECTURE.md
+Tarea: Implementar APIs y servicios
+Salida: Código backend, pruebas
+Activar: agents/backend-agent/prompt.md
 ```
 
-### Data Agent
+### Agente Frontend
 ```
-Read: tasks/03-database-schema.md, docs/ARCHITECTURE.md
-Task: Set up database schema and seed data
-Output: Prisma schema, migrations, seed script
-Activate: agents/data-agent/prompt.md
+Leer: NEXT_TASK.md, archivo de tarea actual, docs/ARCHITECTURE.md
+Tarea: Implementar componentes UI y páginas
+Salida: Código frontend, componentes, pruebas
+Activar: agents/frontend-agent/prompt.md
 ```
 
-### Testing Agent
+### Agente de Datos
 ```
-Read: Completed task code, test guidelines
-Task: Write tests and verify implementation
-Output: Test files, coverage reports
-Activate: agents/testing-agent/prompt.md
+Leer: tasks/03-database-schema.md, docs/ARCHITECTURE.md
+Tarea: Configurar esquema de base de datos y datos semilla
+Salida: Esquema Prisma, migraciones, script semilla
+Activar: agents/data-agent/prompt.md
+```
+
+### Agente de Pruebas
+```
+Leer: Código de tarea completada, directrices de pruebas
+Tarea: Escribir pruebas y verificar implementación
+Salida: Archivos de pruebas, reportes de cobertura
+Activar: agents/testing-agent/prompt.md
 ```
 
 See [agents/README.md](agents/README.md) for detailed instructions.
 
 ---
 
-## ✅ Task Checklist
+## ✅ Lista de Verificación de Tareas
 
-### Phase 1 Implementation Checklist
+### Lista de Verificación de Implementación de Fase 1
 
-- [ ] **Task 01** - Project Setup
-  - [ ] Backend initialized
-  - [ ] Frontend initialized
-  - [ ] Docker configured
+- [ ] **Tarea 01** - Configuración del Proyecto
+  - [ ] Backend inicializado
+  - [ ] Frontend inicializado
+  - [ ] Docker configurado
 
-- [ ] **Task 02** - Authentication
-  - [ ] Register endpoint
-  - [ ] Login endpoint
-  - [ ] Auth middleware
-  - [ ] UI forms
+- [ ] **Tarea 02** - Autenticación
+  - [ ] Endpoint de registro
+  - [ ] Endpoint de inicio de sesión
+  - [ ] Middleware de autenticación
+  - [ ] Formularios UI
 
-- [ ] **Task 03** - Database Schema
-  - [ ] All models defined
-  - [ ] Migrations created
-  - [ ] Seed script working
+- [ ] **Tarea 03** - Esquema de Base de Datos
+  - [ ] Todos los modelos definidos
+  - [ ] Migraciones creadas
+  - [ ] Script semilla funcionando
 
-- [ ] **Task 04** - Card Catalog API
-  - [ ] GET /api/cards
-  - [ ] GET /api/worldcups
-  - [ ] Filtering & pagination
+- [ ] **Tarea 04** - API del Catálogo de Láminas
+  - [ ] GET /api/laminas
+  - [ ] GET /api/mundiales
+  - [ ] Filtrado y paginación
 
-- [ ] **Task 05** - Card Catalog UI
-  - [ ] Explore page
-  - [ ] Card grid
-  - [ ] Year filter
+- [ ] **Tarea 05** - UI del Catálogo de Láminas
+  - [ ] Página de exploración
+  - [ ] Cuadrícula de láminas
+  - [ ] Filtro por año
 
-- [ ] **Task 06** - User Inventory
-  - [ ] GET /api/users/:id/inventory
-  - [ ] My Collection page
-  - [ ] Stats display
+- [ ] **Tarea 06** - Inventario de Usuario
+  - [ ] GET /api/usuarios/:id/inventario
+  - [ ] Página Mi Colección
+  - [ ] Visualización de estadísticas
 
-- [ ] **Task 07** - Marketplace List
-  - [ ] List cards for sale
-  - [ ] Filter by price
-  - [ ] Marketplace page
+- [ ] **Tarea 07** - Lista del Marketplace
+  - [ ] Listar láminas en venta
+  - [ ] Filtrar por precio
+  - [ ] Página del marketplace
 
-- [ ] **Task 08** - Marketplace Buy
-  - [ ] Buy endpoint
-  - [ ] Transaction creation
-  - [ ] Inventory updates
+- [ ] **Tarea 08** - Compra en Marketplace
+  - [ ] Endpoint de compra
+  - [ ] Creación de transacción
+  - [ ] Actualización de inventario
 
-- [ ] **Task 09** - Exchange System
-  - [ ] Create offer endpoint
-  - [ ] Accept/reject offers
-  - [ ] Exchange page
+- [ ] **Tarea 09** - Sistema de Intercambios
+  - [ ] Endpoint para crear oferta
+  - [ ] Aceptar/rechazar ofertas
+  - [ ] Página de intercambios
 
-- [ ] **Task 10** - User Profile
-  - [ ] Profile page
-  - [ ] Edit profile
-  - [ ] Collection stats
+- [ ] **Tarea 10** - Perfil de Usuario
+  - [ ] Página de perfil
+  - [ ] Editar perfil
+  - [ ] Estadísticas de colección
 
 ---
 
-## 🚀 Quick Commands
+## 🚀 Comandos Rápidos
 
-### Setup
+### Configuración
 ```bash
-# 1. Clone and navigate
-git clone <repo-url>
+# 1. Clonar y navegar
+git clone <url-del-repo>
 cd album-project
 
-# 2. Start Docker services
+# 2. Iniciar servicios Docker
 docker-compose up
 
-# 3. Backend (new terminal)
+# 3. Backend (nueva terminal)
 cd backend && npm install && npm run dev
 
-# 4. Frontend (new terminal)
+# 4. Frontend (nueva terminal)
 cd frontend && npm install && npm run dev
 
-# 5. Open browser
+# 5. Abrir navegador
 # Frontend: http://localhost:3000
 # Backend: http://localhost:3001
 ```
 
-### Development
+### Desarrollo
 ```bash
 # Backend
-npm run dev           # Start development server
-npm test             # Run tests
-npx prisma studio  # View database
+npm run dev           # Iniciar servidor de desarrollo
+npm test             # Ejecutar pruebas
+npx prisma studio  # Ver base de datos
 
 # Frontend
-npm run dev           # Start dev server
-npm test             # Run tests
-npm run build        # Build for production
+npm run dev           # Iniciar servidor de desarrollo
+npm test             # Ejecutar pruebas
+npm run build        # Construir para producción
 ```
 
-### Database
+### Base de Datos
 ```bash
 npx prisma migrate dev      # Create migration
 npm run seed               # Seed sample data
@@ -291,63 +291,63 @@ npx prisma studio        # Open database GUI
 
 ---
 
-## 🔗 Key Links
+## 🔗 Enlaces Clave
 
-| Resource | Link |
-|----------|------|
-| **Start Here** | [PROJECT-SUMMARY.md](PROJECT-SUMMARY.md) |
-| **Current Task** | [NEXT_TASK.md](NEXT_TASK.md) |
-| **Architecture** | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
-| **Setup Guide** | [scripts/SETUP.md](scripts/SETUP.md) |
-| **All Tasks** | [tasks/](tasks/) |
-| **Agent Guide** | [agents/README.md](agents/README.md) |
-| **Quick Ref** | [docs/PROJECT-CONTEXT.md](docs/PROJECT-CONTEXT.md) |
-
----
-
-## 💡 Tips
-
-✅ **Always start with NEXT_TASK.md**
-✅ **Read full task file + ARCHITECTURE.md**
-✅ **Follow acceptance criteria exactly**
-✅ **Write tests before marking complete**
-✅ **Update NEXT_TASK.md after finishing**
-✅ **Keep code simple (MVP only)**
-✅ **Ask questions in task notes**
-
-❌ **Don't add features not in task**
-❌ **Don't skip tests**
-❌ **Don't hardcode values**
-❌ **Don't merge without code review**
-❌ **Don't ignore TypeScript errors**
+| Recurso | Enlace |
+|---------|--------|
+| **Comenzar Aquí** | [PROJECT-SUMMARY.md](PROJECT-SUMMARY.md) |
+| **Tarea Actual** | [NEXT_TASK.md](NEXT_TASK.md) |
+| **Arquitectura** | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
+| **Guía de Configuración** | [scripts/SETUP.md](scripts/SETUP.md) |
+| **Todas las Tareas** | [tasks/](tasks/) |
+| **Guía de Agentes** | [agents/README.md](agents/README.md) |
+| **Referencia Rápida** | [docs/PROJECT-CONTEXT.md](docs/PROJECT-CONTEXT.md) |
 
 ---
 
-## ❓ FAQ
+## 💡 Consejos
 
-**Q: Where do I start?**
-A: [PROJECT-SUMMARY.md](PROJECT-SUMMARY.md) → [scripts/SETUP.md](scripts/SETUP.md) → [NEXT_TASK.md](NEXT_TASK.md)
+✅ **Siempre comenzar con NEXT_TASK.md**
+✅ **Leer archivo completo de tarea + ARCHITECTURE.md**
+✅ **Seguir criterios de aceptación exactamente**
+✅ **Escribir pruebas antes de marcar como completo**
+✅ **Actualizar NEXT_TASK.md después de terminar**
+✅ **Mantener código simple (solo MVP)**
+✅ **Preguntar en notas de tarea**
 
-**Q: How do I set up my environment?**
-A: Follow [scripts/SETUP.md](scripts/SETUP.md)
+❌ **No agregar características no incluidas en la tarea**
+❌ **No omitir pruebas**
+❌ **No hardcodear valores**
+❌ **No hacer merge sin revisión de código**
+❌ **No ignorar errores de TypeScript**
 
-**Q: What task should I work on next?**
-A: Check [NEXT_TASK.md](NEXT_TASK.md)
+---
 
-**Q: How do I use AI agents?**
-A: Read [agents/README.md](agents/README.md)
+## ❓ Preguntas Frecuentes
 
-**Q: What's the architecture?**
-A: Read [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+**P: ¿Dónde comenzar?**
+R: [PROJECT-SUMMARY.md](PROJECT-SUMMARY.md) → [scripts/SETUP.md](scripts/SETUP.md) → [NEXT_TASK.md](NEXT_TASK.md)
 
-**Q: Can I skip the database?**
-A: No, use docker-compose for easy setup
+**P: ¿Cómo configurar mi entorno?**
+R: Seguir [scripts/SETUP.md](scripts/SETUP.md)
 
-**Q: What testing framework?**
-A: Backend: Jest, Frontend: Jest + React Testing Library
+**P: ¿Qué tarea debería trabajar ahora?**
+R: Revisar [NEXT_TASK.md](NEXT_TASK.md)
 
-**Q: Where's the roadmap?**
-A: [docs/ROADMAP.md](docs/ROADMAP.md)
+**P: ¿Cómo usar agentes IA?**
+R: Leer [agents/README.md](agents/README.md)
+
+**P: ¿Cuál es la arquitectura?**
+R: Leer [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+
+**P: ¿Puedo omitir la base de datos?**
+R: No, usar docker-compose para configuración fácil
+
+**P: ¿Qué framework de pruebas?**
+R: Backend: Jest, Frontend: Jest + React Testing Library
+
+**P: ¿Dónde está el roadmap?**
+R: [docs/ROADMAP.md](docs/ROADMAP.md)
 
 ---
 
@@ -366,5 +366,5 @@ A: [docs/ROADMAP.md](docs/ROADMAP.md)
 ---
 
 **Generated**: May 5, 2026
-**Project**: WorldCard - World Cup Album Card Marketplace
+**Project**: LáminaGol - World Cup Album Card Marketplace
 **Status**: ✅ Ready for Phase 1 Implementation

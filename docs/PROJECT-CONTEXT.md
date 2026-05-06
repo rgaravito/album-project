@@ -1,14 +1,14 @@
 # Project Context & Memory
 
-Reference document for understanding WorldCard project structure and conventions.
+Reference document for understanding LáminaGol project structure and conventions.
 
 ## Project Overview
 
-**WorldCard** is a platform for buying, selling, and exchanging World Cup album cards (láminas de álbum del mundial).
+**LáminaGol** is a platform for buying, selling, and exchanging World Cup album stickers (láminas adhesivas del álbum).
 
-**Goal**: Users can discover, collect, trade, and sell cards from World Cup albums across different years.
+**Goal**: Users can discover, collect, trade, and sell album stickers from World Cup albums across different years.
 
-**MVP Scope**: 10 core tasks delivering authentication, card catalog, inventory, marketplace, and exchange system.
+**MVP Scope**: 10 core tasks delivering authentication, sticker catalog, inventory, marketplace, and exchange system.
 
 ## Key Numbers
 

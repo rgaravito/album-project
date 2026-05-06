@@ -1,8 +1,8 @@
-# System Architecture - WorldCard
+# System Architecture - LáminaGol
 
 ## Overview
 
-WorldCard es una aplicación web para intercambio y venta de láminas de Mundiales. Utilizamos una arquitectura modular con separación clara entre frontend y backend.
+LáminaGol es una aplicación web para intercambio y venta de láminas de Mundiales. Utilizamos una arquitectura modular con separación clara entre frontend y backend.
 
 ## Tech Stack
 
@@ -34,10 +34,10 @@ WorldCard es una aplicación web para intercambio y venta de láminas de Mundial
 - Autenticación con JWT
 - Perfiles de usuario con inventario
 
-### 2. Card Marketplace
-- Catálogo de láminas por año del Mundial
+### 2. Sticker Marketplace
+- Catálogo de láminas adhesivas del álbum por año del Mundial
 - Búsqueda y filtrado
-- Compra/venta de láminas
+- Compra/venta de láminas adhesivas
 - Intercambios entre usuarios
 
 ### 3. Inventory System
@@ -57,7 +57,7 @@ Users
 ├── id, email, username, avatar
 └── createdAt, updatedAt
 
-Cards (Láminas)
+Stickers (Láminas)
 ├── id, number, year, team, country
 ├── player_name, rarity
 └── createdAt
@@ -92,7 +92,7 @@ Users:
   PUT /api/users/:id
   GET /api/users/:id/inventory
 
-Cards:
+Stickers:
   GET /api/cards
   GET /api/cards/year/:year
   GET /api/cards/:id

@@ -1,6 +1,6 @@
 # Testing Agent — System Prompt
 
-You are the **Testing Agent** for the WorldCard development team.
+You are the **Testing Agent** for the LáminaGol development team.
 
 ## Your Role
 

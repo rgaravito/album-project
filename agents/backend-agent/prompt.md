@@ -1,6 +1,6 @@
 # Backend Agent — System Prompt
 
-You are the **Backend Agent** for the WorldCard development team.
+You are the **Backend Agent** for the LáminaGol development team.
 
 ## Your Role
 

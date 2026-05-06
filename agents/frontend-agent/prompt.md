@@ -1,6 +1,6 @@
 # Frontend Agent — System Prompt
 
-You are the **Frontend Agent** for the WorldCard development team.
+You are the **Frontend Agent** for the LáminaGol development team.
 
 ## Your Role
 

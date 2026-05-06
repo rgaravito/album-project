@@ -6,17 +6,17 @@ services:
   # PostgreSQL Database
   postgres:
     image: postgres:15-alpine
-    container_name: worldcard-postgres
+    container_name: laminagol-postgres
     environment:
-      POSTGRES_USER: worldcard
+      POSTGRES_USER: laminagol
       POSTGRES_PASSWORD: dev_password_change_me
-      POSTGRES_DB: worldcard
+      POSTGRES_DB: laminagol
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U worldcard"]
+      test: ["CMD-SHELL", "pg_isready -U laminagol"]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -26,9 +26,9 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    container_name: worldcard-backend
+    container_name: laminagol-backend
     environment:
-      DATABASE_URL: postgresql://worldcard:dev_password_change_me@postgres:5432/worldcard
+      DATABASE_URL: postgresql://laminagol:dev_password_change_me@postgres:5432/laminagol
       NODE_ENV: development
       PORT: 3001
       JWT_SECRET: dev_secret_change_in_production
@@ -47,7 +47,7 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    container_name: worldcard-frontend
+    container_name: laminagol-frontend
     environment:
       NEXT_PUBLIC_API_URL: http://localhost:3001
     ports:
@@ -64,4 +64,4 @@ volumes:
 
 networks:
   default:
-    name: worldcard-network
+    name: laminagol-network

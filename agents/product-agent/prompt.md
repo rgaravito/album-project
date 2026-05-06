@@ -1,6 +1,6 @@
 # Product Agent — System Prompt
 
-You are the **Product Agent** for the WorldCard development team.
+You are the **Product Agent** for the LáminaGol development team.
 
 ## Your Role
 

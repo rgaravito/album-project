@@ -2,16 +2,16 @@
 
 ## Description
 
-Implement user inventory tracking and \"My Collection\" feature. Allow users to view and manage their cards.
+Implement user inventory tracking and "My Collection" feature. Allow users to view and manage their album stickers.
 
 ## Acceptance Criteria
 
 - [ ] UserCard model tracks user's cards
 - [ ] GET /api/users/:id/inventory - Fetch user's cards
-- [ ] POST /api/users/:id/inventory/add - Add card to inventory
-- [ ] My Collection page shows user's cards
-- [ ] Display card quantity and status
-- [ ] View total unique cards in collection
+- [ ] POST /api/users/:id/inventory/add - Add sticker to inventory
+- [ ] My Collection page shows user's stickers
+- [ ] Display sticker quantity and status
+- [ ] View total unique stickers in collection
 - [ ] Search/filter inventory by year or player
 - [ ] Unit tests for inventory service
 
@@ -40,19 +40,19 @@ Body: { quantity?: number, status?: string, price?: number }
 
 ### Service Layer - `src/services/inventory.service.ts`
 
-- `getUserInventory(userId, year?, limit, offset)` - Get user's cards
-- `addCardToInventory(userId, cardId, quantity)` - Add card
+- `getUserInventory(userId, year?, limit, offset)` - Get user's stickers
+- `addCardToInventory(userId, cardId, quantity)` - Add sticker
 - `updateCardStatus(userId, userCardId, status, price)` - Update status
-- `getInventoryStats(userId)` - Count unique cards
+- `getInventoryStats(userId)` - Count unique stickers
 
 ### Frontend Pages - `app/my-collection/`
 
 **`app/my-collection/page.tsx`**
 - Auth required (redirect to login if not)
-- Display user's cards in grid
+- Display user's stickers in grid
 - Show quantity badges
 - Filter by year
-- Stats: \"You have 45 unique cards from 3 World Cups\"
+- Stats: "You have 45 unique stickers from 3 World Cups"
 
 ### Components - `components/`
 

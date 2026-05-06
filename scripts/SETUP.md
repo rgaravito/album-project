@@ -51,7 +51,7 @@ npm run seed
 
 ### Backend (.env)
 ```
-DATABASE_URL="postgresql://user:password@localhost:5432/worldcard"
+DATABASE_URL="postgresql://user:password@localhost:5432/laminagol"
 JWT_SECRET="your-secret-key-change-in-production"
 NODE_ENV="development"
 PORT=3001

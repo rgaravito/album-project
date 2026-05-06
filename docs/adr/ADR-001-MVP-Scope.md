@@ -4,11 +4,11 @@
 Accepted
 
 ## Decision
-Define the MVP (Minimum Viable Product) scope to launch WorldCard with essential features only. Cut all non-core features.
+Define the MVP (Minimum Viable Product) scope to launch LáminaGol with essential features only. Cut all non-core features.
 
 ## Context
 
-The initial vision for WorldCard included many features:
+The initial vision for LáminaGol included many features:
 - Payment processing
 - Gamification (points, badges)
 - Chat/messaging
@@ -19,18 +19,18 @@ The initial vision for WorldCard included many features:
 
 This is too large for MVP. We need to focus on core value.
 
-## Core Value of WorldCard
+## Core Value of LáminaGol
 
-Users can **buy, sell, and exchange** World Cup album cards with each other. That's it.
+Users can **buy, sell, and exchange** World Cup album stickers with each other. That's it.
 
 ## MVP Features
 
 ✅ **Must Have**
 1. User authentication (register, login)
-2. Card catalog (browse by year)
+2. Sticker catalog (browse by year)
 3. Personal inventory/collection
 4. Marketplace (list, buy)
-5. Exchange system (trade cards)
+5. Exchange system (trade stickers)
 6. User profile
 7. Transaction history
 

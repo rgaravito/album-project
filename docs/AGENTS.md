@@ -1,4 +1,4 @@
-# Agent Rules - WorldCard
+# Agent Rules - LáminaGol
 
 ## General Guidelines
 

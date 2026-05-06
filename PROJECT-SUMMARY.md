@@ -1,8 +1,8 @@
-# WorldCard Project Summary
+# LáminaGol Project Summary
 
 ## 🎯 Project Overview
 
-**WorldCard** is a web application for buying, selling, and exchanging World Cup album cards (láminas del mundial).
+**LáminaGol** is a web application for buying, selling, and exchanging World Cup album stickers (láminas adhesivas del álbum).
 
 **Status**: Architecture & Planning Phase (Ready for Implementation)
 
@@ -11,9 +11,9 @@
 ## 📋 Key Features
 
 ✅ **User Authentication** - Secure registration and login
-✅ **Card Catalog** - Browse World Cup cards by year
+✅ **Sticker Catalog** - Browse World Cup album stickers by year
 ✅ **Personal Inventory** - Track your collection
-✅ **Marketplace** - List and buy cards from other users
+✅ **Marketplace** - List and buy stickers from other users
 ✅ **Exchange System** - Trade cards with other collectors
 ✅ **User Profiles** - View user info and their listings
 
@@ -118,7 +118,7 @@ See `scripts/SETUP.md` for detailed instructions.
 
 ### Core Entities
 - **User** - Collector accounts
-- **Card** - Individual album cards
+- **Card** - Individual album stickers (láminas adhesivas del álbum)
 - **WorldCup** - Tournament information (year, country)
 - **UserCard** - User's inventory (quantity, status, price)
 - **Transaction** - Buy/sell/exchange records
@@ -136,12 +136,12 @@ POST   /api/auth/register       # Create account
 POST   /api/auth/login          # Get JWT token
 ```
 
-### Cards & Marketplace
+### Stickers & Marketplace
 ```
-GET    /api/cards               # Browse all cards
-GET    /api/cards/:id           # Card details
+GET    /api/cards               # Browse all stickers
+GET    /api/cards/:id           # Sticker details
 GET    /api/cards?year=2022     # Filter by year
-GET    /api/market/cards        # Cards for sale
+GET    /api/market/cards        # Stickers for sale
 ```
 
 ### User & Inventory

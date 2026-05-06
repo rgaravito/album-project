@@ -5,7 +5,7 @@ Accepted
 
 ## Decision
 
-Use the following tech stack for WorldCard MVP:
+Use the following tech stack for LáminaGol MVP:
 
 **Frontend**
 - Next.js 14+ (App Router)

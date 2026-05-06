@@ -13,7 +13,7 @@ Implement user profile page and basic settings. Allow users to view/edit their p
 - [ ] Edit profile form
 - [ ] Avatar upload (optional file upload or URL)
 - [ ] Collection stats on profile
-- [ ] User's listed cards visible
+- [ ] User's listed stickers visible
 - [ ] Response validation
 - [ ] Unit tests
 

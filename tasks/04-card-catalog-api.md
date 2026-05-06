@@ -2,13 +2,13 @@
 
 ## Description
 
-Implement API endpoints to fetch cards from the database. Create services and routes for listing, filtering, and searching cards.
+Implement API endpoints to fetch album stickers from the database. Create services and routes for listing, filtering, and searching stickers.
 
 ## Acceptance Criteria
 
-- [ ] GET /api/cards - List all cards with pagination
+- [ ] GET /api/cards - List all album stickers with pagination
 - [ ] GET /api/cards?year=2022 - Filter by World Cup year
-- [ ] GET /api/cards/:id - Get single card
+- [ ] GET /api/cards/:id - Get single sticker
 - [ ] GET /api/worldcups - List all tournaments by year
 - [ ] Pagination support (limit, offset)
 - [ ] Response validation
@@ -45,8 +45,8 @@ Response: Card
 
 ### Service Layer - `src/services/card.service.ts`
 
-- `getAllCards(limit, offset, year?)` - Fetch cards with pagination
-- `getCardById(id)` - Fetch single card
+- `getAllCards(limit, offset, year?)` - Fetch album stickers with pagination
+- `getCardById(id)` - Fetch single sticker
 - `getCardsByYear(year)` - Filter by world cup year
 - `getWorldCups()` - List all tournaments
 

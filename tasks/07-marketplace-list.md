@@ -2,14 +2,14 @@
 
 ## Description
 
-Implement basic marketplace functionality. Allow users to list their cards for sale and create a view to browse cards being sold by other users.
+Implement basic marketplace functionality. Allow users to list their album stickers for sale and create a view to browse stickers being sold by other users.
 
 ## Acceptance Criteria
 
-- [ ] Users can list their cards for sale
+- [ ] Users can list their stickers for sale
 - [ ] PUT /api/users/:id/inventory/:cardId/list-for-sale endpoint
-- [ ] GET /api/market/cards - Browse available cards
-- [ ] Marketplace page showing cards for sale
+- [ ] GET /api/market/cards - Browse available stickers
+- [ ] Marketplace page showing stickers for sale
 - [ ] Display seller info and price
 - [ ] Filter by price range
 - [ ] Sort by price or newest
@@ -46,8 +46,8 @@ Response: { success: true }
 
 ### Service Layer - `src/services/market.service.ts`
 
-- `getAvailableCards(filters, sort)` - Get cards for sale
-- `listCardForSale(userId, userCardId, price)` - List card
+- `getAvailableCards(filters, sort)` - Get stickers for sale
+- `listCardForSale(userId, userCardId, price)` - List sticker
 - `unlistCard(userId, userCardId)` - Remove from market
 - `searchCards(query)` - Search by player name
 
@@ -58,7 +58,7 @@ Response: { success: true }
 ### Frontend Pages - `app/market/`
 
 **`app/market/page.tsx`**
-- Grid of cards for sale
+- Grid of stickers for sale
 - Sidebar with filters:
   - Price range slider
   - Year selector
@@ -69,7 +69,7 @@ Response: { success: true }
 ### Components - `components/Market/`
 
 **`MarketCard.tsx`**
-- Shows card with price
+- Shows sticker with price
 - Seller info (username)
 - \"Buy Now\" button
 - \"Make Offer\" button
@@ -83,10 +83,10 @@ Response: { success: true }
 
 ## Testing
 
-1. List card for sale - appears in marketplace
-2. Unlist card - disappears from marketplace
+1. List sticker for sale - appears in marketplace
+2. Unlist sticker - disappears from marketplace
 3. Filter by price works
-4. Search finds cards
+4. Search finds stickers
 5. Seller info displays correctly
 6. Sorting works
 
@@ -98,5 +98,5 @@ Backend Agent, Frontend Agent, Testing Agent
 
 - Price: Float with 2 decimals
 - Seller username shown (not email)
-- Cards only show if `listedForSale: true`
+- Stickers only show if `listedForSale: true`
 - Status remains \"available\" when listed
